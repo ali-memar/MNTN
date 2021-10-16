@@ -25,7 +25,7 @@
 
 <body>
 
-  <header class="relative h-screen text-white">
+  <header class="relative h-96 md:h-screen text-white">
     <img class="bg-header absolute top-0 left-0 object-cover object-center" src="img/Background.png"
       alt="image coever header">
     <nav>
@@ -44,17 +44,17 @@
       </div>
     </nav>
     <div class="wrapper-content-header mw-1080 relative h-full">
-      <div class="wrapper-header absolute left-1/4 top-40">
+      <div class="wrapper-header absolute left-1/4 top-14 sm:top-40">
         <h5 class="brand-500 font-sans font-medium before-line pl-14 text-xs sm:text-sm tracking-widester">A HIKING GUIDE
         </h5>
         <div class="title-header">
-          <h1 class="text-lg sm:text-4xl md:text-5xl lg:text-7xl font-normal mt-3 leading-tight">
+          <h1 class="text-2xl sm:text-4xl md:text-5xl font-normal mt-3 leading-tight">
             Be Prepared For The <br> Mountains And Beyound!
           </h1>
         </div>
       </div>
-      <div class="social flex flex-col gap-4 absolute top-1/4">
-        <div class="transform rotate-90 pt-11"><span class="transform rotate-90 w-20 font-bold">Follow us</span></div>
+      <div class="social flex flex-col gap-4 absolute top-1/4 sm:top-1/4">
+        <div class="transform rotate-90 pt-11"><span class="transform rotate-90 w-20 font-bold text-xs sm:text-base">Follow us</span></div>
         <div><a href="#"><img src="img/instagram.svg" alt="instagram"></a></div>
         <div><a href="#"><img src="img/twitter.svg" alt="twitter"></a></div>
         <div><a href="#"><img src="img/Facebook.svg" alt="facebook"></a></div>
@@ -64,10 +64,10 @@
 
   <section id="posts">
     <div class="wrapper-posts mw-1080">
-      <div class="wrapper-post text-white flex items-center mt-11">
-        <div class="side-left w-1/2 px-3 md:p-16 pt-0 relative">
+      <div class="wrapper-post text-white flex flex-col-reverse sm:flex-row items-center mt-11">
+        <div class="side-left sm:w-1/2 p-3 md:p-16 pt-0 relative">
           <p class="absolute text-9xl -top-16 font-sans left-0 from-white opacity-20 font-black">01</p>
-          <div class="wrapper-side-left">
+          <div class="wrapper-side-left mt-10 sm:mt-0">
             <p class="brand-500 font-sans font-medium before-line pl-14 text-xs tracking-widester mb-5">GET STARTED</p>
             <h2 class="text-base sm:text-4xl my-3">What level of hiker <br> are you?</h2>
             <p class="text-xs leading-5 my-4">
@@ -83,20 +83,20 @@
             </div>
           </div>
         </div>
-        <div class="side-right w-1/2 p-16 pt-0">
+        <div class="side-right sm:w-1/2 px-3 md:p-16 pt-0">
           <img class="object-cover object-center" src="img/post1.png" alt="post">
         </div>
       </div>
-      <div class="wrapper-post flex items-center gap-6 text-white mt-11">
-        <div class="side-left w-1/2 p-16 pt-0">
+      <div class="wrapper-post text-white flex flex-col sm:flex-row items-center mt-11">
+        <div class="side-left sm:w-1/2 px-3 md:p-16 pt-0">
           <img class="object-cover object-center" src="img/post2.png" alt="image">
         </div>
-        <div class="side-right w-1/2 p-16 pt-0 relative">
+        <div class="side-right sm:w-1/2 p-3 md:p-16 pt-0 relative">
           <p class="absolute text-9xl -top-16 font-sans left-0 from-white opacity-20 font-black">02</p>
-          <div class="wrapper-side-right">
-            <p class="brand-500 font-sans font-medium before-line pl-14 text-xs tracking-widester">HIKING ESSENTIALS
+          <div class="wrapper-side-right mt-10 sm:mt-0">
+            <p class="brand-500 font-sans font-medium before-line pl-14 text-xs tracking-widester mb-5">HIKING ESSENTIALS
             </p>
-            <h2 class="text-4xl mt-3">Picking the right <br> Hiking Gear!</h2>
+            <h2 class="text-base sm:text-4xl my-3">Picking the right <br> Hiking Gear!</h2>
             <p class="text-xs leading-5 my-4">
               The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get
               away with things you already have.
@@ -111,13 +111,13 @@
           </div>
         </div>
       </div>
-      <div class="wrapper-post text-white flex items-center mt-11">
-        <div class="side-left w-1/2 p-16 pt-0 relative">
+      <div class="wrapper-post text-white flex flex-col-reverse sm:flex-row items-center mt-11">
+        <div class="side-left sm:w-1/2 p-3 md:p-16 pt-0 relative">
           <p class="absolute text-9xl -top-16 font-sans left-0 from-white opacity-20 font-black">03</p>
-          <div class="wrapper-side-left">
+          <div class="wrapper-side-left mt-10 sm:mt-0">
             <p class="brand-500 font-sans font-medium before-line pl-14 text-xs tracking-widester mb-5">WHERE YOU GO IS
               THE KEY</p>
-            <h2 class="text-4xl my-3">Understand Your <br> Map & Timing</h2>
+            <h2 class="text-base sm:text-4xl my-3">Understand Your <br> Map & Timing</h2>
             <p class="text-xs leading-5 my-4">
               To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the
               guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I
@@ -129,7 +129,7 @@
             </div>
           </div>
         </div>
-        <div class="side-right w-1/2 p-16 pt-0">
+        <div class="side-right sm:w-1/2 px-3 md:p-16 pt-0">
           <img class="object-cover object-center" src="img/post3.png" alt="post">
         </div>
       </div>
@@ -137,13 +137,13 @@
   </section>
 
   <footer>
-    <div class="wrapper-footer text-white mw-1080 flex gap-48 pb-16 mt-16">
+    <div class="wrapper-footer text-white mw-1080 flex flex-col sm:flex-row gap-10 md:gap-32 pb-16 mt-16">
       <div class="col-footer flex flex-col gap-4">
         <h3 class="text-3xl">MNTN</h3>
         <p>Get out there & discover you next <br> slope, mountain & destination!</p>
         <p class="copy-right opacity-70 mt-auto text-sm">Copyright 2019 MNTN, Inc. Terms & Privacy</p>
       </div>
-      <div class="col-footer leading-10 text-sm ml-auto">
+      <div class="col-footer leading-10 text-sm sm:ml-auto">
         <p class="brand-500 font-semibold text-base mb-3">More on The Blog</p>
         <p><a href="#">About MNTN</a></p>
         <p><a href="#">Contributors & Writers</a></p>
